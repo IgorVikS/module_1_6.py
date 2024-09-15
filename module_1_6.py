@@ -12,6 +12,8 @@ del my_dict['Vova']
 print(my_dict)
 my_dict.pop('Pasha')
 print(my_dict)
+print(my_dict.pop('Gosha'))
+print(my_dict)
 
 my_set = {1, 2, 3, 'a', 'b', 2, 3, 4, 5, 'String', True, ('b', 'c')}
 print(my_set)
